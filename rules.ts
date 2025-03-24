@@ -34,7 +34,7 @@ const rules: KarabinerRules[] = [
         to_if_alone: [
           {
             key_code: "escape",
-          },
+          }
         ],
         type: "basic",
       },
@@ -86,6 +86,7 @@ const rules: KarabinerRules[] = [
         "notion://https://www.notion.so/1c00d44e4480803ab43bc1ec0c7036f3?v=1c00d44e448080c2b134000cb5ce3214&pvs=4"
       ),
       z: app("zoom.us"),
+      v: app("Visual Studio Code"),
       f: app("Finder"),
       // "i"Message
       i: app("Texts"),

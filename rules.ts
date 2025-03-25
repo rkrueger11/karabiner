@@ -56,9 +56,15 @@ const rules: KarabinerRules[] = [
     ],
   },
   ...createHyperSubLayers({
-    // spacebar: open(
-    //   "raycast://extensions/stellate/mxstbr-commands/create-notion-todo"
-    // ),
+    // BetterDictation
+    spacebar: {
+      to: [
+        {
+          key_code: "f4",
+          modifiers: ["right_control"],
+        },
+      ],
+    },
     // b = "B"rowse
     // b: {
     //   t: open("https://twitter.com"),

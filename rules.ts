@@ -58,12 +58,7 @@ const rules: KarabinerRules[] = [
   ...createHyperSubLayers({
     // BetterDictation
     spacebar: {
-      to: [
-        {
-          key_code: "f5",
-          modifiers: ["left_option"],
-        },
-      ],
+        to: [{ key_code: "spacebar", modifiers: ["right_shift", "right_command", "right_alt"] }],
     },
     // b = "B"rowse
     // b: {

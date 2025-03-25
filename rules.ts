@@ -60,8 +60,8 @@ const rules: KarabinerRules[] = [
     spacebar: {
       to: [
         {
-          key_code: "f4",
-          modifiers: ["right_control"],
+          key_code: "f5",
+          modifiers: ["left_option"],
         },
       ],
     },

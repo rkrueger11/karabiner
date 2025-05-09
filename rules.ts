@@ -77,7 +77,7 @@ const rules: KarabinerRules[] = [
       a: app("Arc"),
       g: app("Google Chrome"),
       c: app("Notion Calendar"),
-      d: app("Discord"),
+      d: app("DataGrip"),
       s: app("Slack"),
       e: app("Mail"),
       n: app("Notion"),

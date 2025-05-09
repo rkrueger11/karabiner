@@ -33,7 +33,8 @@ const rules: KarabinerRules[] = [
         ],
         to_if_alone: [
           {
-            key_code: "escape",
+            key_code: "spacebar",
+            modifiers: ["left_command"],
           }
         ],
         type: "basic",
